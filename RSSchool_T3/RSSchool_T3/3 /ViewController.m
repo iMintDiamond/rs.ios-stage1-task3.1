@@ -34,7 +34,7 @@
     [self.textFieldBlue     setBorderStyle:UITextBorderStyleRoundedRect];
     
     [self.buttonProcess     setTitle:@"Process" forState:UIControlStateNormal];
-    [self.buttonProcess     setTitleColor:UIColor.systemBlueColor forState:UIControlStateNormal];
+    [self.buttonProcess     setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     
     [self.viewResultColor.layer setBorderWidth:1];
     [self.viewResultColor.layer setBorderColor:UIColor.blackColor.CGColor];
